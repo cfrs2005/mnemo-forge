@@ -1,4 +1,4 @@
-# Memory Middleware POC Design
+# MnemoForge POC Design
 
 ## Goal
 

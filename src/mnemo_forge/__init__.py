@@ -1,4 +1,4 @@
-"""Auditable memory middleware primitives."""
+"""Auditable MnemoForge primitives."""
 
 from .policy import decay_score, lifecycle_state
 from .repository import InMemoryMemoryRepository

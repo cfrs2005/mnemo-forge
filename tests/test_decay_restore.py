@@ -1,9 +1,9 @@
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from memory_middleware.models import MemoryStatus
-from memory_middleware.repository import InMemoryMemoryRepository
-from memory_middleware.service import MemoryService
+from mnemo_forge.models import MemoryStatus
+from mnemo_forge.repository import InMemoryMemoryRepository
+from mnemo_forge.service import MemoryService
 
 
 class DecayRestoreTests(unittest.TestCase):

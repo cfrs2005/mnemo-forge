@@ -1,6 +1,8 @@
-# Memory Middleware
+# MnemoForge
 
-A small, auditable memory middleware POC built around PostgreSQL, pgvector, and a stateless Memory API.
+A small, auditable memory forge for shared agent context.
+
+A small, auditable POC built around PostgreSQL, pgvector, and a stateless Memory API.
 
 ## Scope
 

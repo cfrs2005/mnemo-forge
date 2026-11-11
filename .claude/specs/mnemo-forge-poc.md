@@ -1,6 +1,6 @@
 ---
-spec_id: memory-middleware-poc
-objective: Build a sanitized MIT-licensed PostgreSQL + pgvector + Memory API POC under the test workspace.
+spec_id: mnemo-forge-poc
+objective: Build a sanitized MIT-licensed PostgreSQL + pgvector + MnemoForge API POC under the test workspace.
 created: 2026-11-11
 status: complete
 ---
@@ -29,7 +29,7 @@ status: complete
 
 ## Clarifications
 
-- The project name is `memory-middleware`.
+- The project name is `mnemo-forge`.
 - The first implementation may use a deterministic in-memory repository for feature tests. The PostgreSQL adapter and SQL schema are required code artifacts, but no database process is started in this phase.
 - The API framework is selected during implementation if it preserves the contract and keeps the POC easy to run.
 - The first embedding adapter is deterministic and local to tests. A production embedding provider is outside this POC.

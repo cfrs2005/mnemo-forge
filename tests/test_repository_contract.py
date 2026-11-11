@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-from memory_middleware.api import app
+from mnemo_forge.api import app
 
 
 class RepositoryContractTests(unittest.TestCase):
@@ -18,7 +18,7 @@ class RepositoryContractTests(unittest.TestCase):
         self.assertTrue(expected.issubset(routes))
 
     def test_postgres_adapter_uses_placeholders(self) -> None:
-        source = Path("src/memory_middleware/postgres.py").read_text(encoding="utf-8")
+        source = Path("src/mnemo_forge/postgres.py").read_text(encoding="utf-8")
         self.assertIn("%s", source)
         self.assertNotIn("f\"", source)
 

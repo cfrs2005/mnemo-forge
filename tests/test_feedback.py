@@ -1,9 +1,9 @@
 import unittest
 from datetime import datetime, timezone
 
-from memory_middleware.models import FeedbackType
-from memory_middleware.repository import InMemoryMemoryRepository
-from memory_middleware.service import MemoryService
+from mnemo_forge.models import FeedbackType
+from mnemo_forge.repository import InMemoryMemoryRepository
+from mnemo_forge.service import MemoryService
 
 
 class FeedbackTests(unittest.TestCase):

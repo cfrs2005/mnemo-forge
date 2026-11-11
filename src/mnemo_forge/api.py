@@ -49,7 +49,7 @@ class RestoreRequest(BaseModel):
 
 repository = InMemoryMemoryRepository()
 service = MemoryService(repository)
-app = FastAPI(title="Memory Middleware", version="0.1.0")
+app = FastAPI(title="MnemoForge", version="0.1.0")
 
 
 @app.post("/v1/memories")
