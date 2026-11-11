@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "spec_id": "memory-middleware-poc",
+  "phase": "specify",
+  "objective": "Build a sanitized MIT-licensed PostgreSQL + pgvector + Memory API POC under the test workspace.",
+  "created_at": "2026-11-11T00:00:00-08:00",
+  "updated_at": "2026-11-11T00:00:00-08:00",
+  "spec_confirmed": false,
+  "history": [
+    {
+      "turn": 1,
+      "phase": "specify",
+      "actions": [
+        "created sanitized public design and draft specification"
+      ],
+      "outcome": "awaiting user confirmation"
+    }
+  ],
+  "blockers": []
+}
